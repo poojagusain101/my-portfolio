@@ -1,0 +1,210 @@
+/* Projects.css */
+
+.project-heading{
+  font-size: 3rem;
+  color: white;
+  text-align: center;
+  margin-bottom:3px;
+}
+
+.projects-section {
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* padding: 10px; */
+    margin-top: 40px;
+    padding-left: 150px;
+    padding-right: 150px;
+    
+  }
+  
+  .container2 {
+    display: flex;
+    flex-direction: column;
+    /* gap: 30px; */
+    align-items: center;
+  }
+  
+  .projects-wrapper {
+    display: flex;
+    /* flex-direction: column; */
+    gap: 30px;
+  }
+  
+  .project-details {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .project-number {
+    font-size: 8rem;
+    font-weight: 800;
+    color: transparent;
+    -webkit-text-stroke: 1px rgb(254, 253, 253);
+  }
+  
+  .project-title {
+    font-size: 42px;
+    font-weight: bold;
+    color: white;
+    transition: all 0.5s ease;
+  }
+  
+  .project-description {
+    color: rgba(255, 255, 255, 0.6);
+  }
+  
+  .project-stack {
+    display: flex;
+    gap: 6px;
+    list-style: none;
+  }
+  
+  .stack-item {
+    font-size: 1.25rem;
+    color: #ff007f;
+  }
+
+  hr{
+    width: 100%; /* Sets the length of the hr to 70% of the parent container's width */
+    height: 1px; /* Sets the thickness of the hr */
+    background-color: gray; /* Sets the color of the hr */
+    border: none; /* Removes any default border */
+    margin: 20px auto;
+  }
+  
+  .project-links {
+    display: flex;
+    gap: 4px;
+  }
+
+  .link-outer{
+    height: 3.2rem;
+    width: 3.2rem;
+    background-color: rgb(128, 128, 128,0.4);
+    border-radius: 50%;
+   /* text-align: center; */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  }
+  
+  .link-icon {
+    font-size: 2rem;
+    color: white;
+    transition: color 0.3s ease;
+    align-items: center;
+    z-index: 100;
+  }
+  
+  .project-slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  .slider {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+
+  }
+
+  .sliderBtns{
+    align-items: right;
+  }
+  
+  .slider-button {
+    background-color: #ff007f;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left:15px;
+  }
+  
+  .slider-button:hover {
+    background-color: #3e0924;
+  }
+  
+  .slider-image-wrapper {
+    width: 550px;
+    height: 420px;
+    position: relative;
+    /* display: flex; */
+    flex-direction: column;
+    gap: 2px;
+    overflow: hidden;
+  }
+  
+  .slider-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  
+
+  @media screen and (max-width: 830px){
+
+    .project-heading{
+      font-size: 2rem;
+      margin:0;
+    }
+
+    .projects-section{
+      width: 100%;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .project-number {
+      font-size: 6rem;
+    }
+    
+    .project-title {
+      font-size: 30px;
+    }
+
+    .projects-wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      }
+      .project-details{
+        width:90%;
+      }
+      .project-slider {
+        width:90%;
+      }
+
+      .slider {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        align-items: center; /* Optional: centers the items horizontally */
+        justify-content: center; /* Optional: centers the items vertically */
+        gap: 10px;
+      }
+
+      .slider-image-wrapper {
+        width: 450px;
+        height: 250px;
+        position: relative;
+        /* display: flex; */
+        flex-direction: column;
+        gap: 2px;
+      }
+
+  }
+
+  @media screen and (max-width: 460px){
+    .slider-image-wrapper {
+      width: 360px;
+      height: 250px;
+    }
+  }
