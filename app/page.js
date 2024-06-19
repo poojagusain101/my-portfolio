@@ -1,6 +1,6 @@
 import styles from "./page.module.css";
-import Navbar from "@/Components/Navbar/Navbar.js";
-import Hero from "@/Components/Hero/Hero.js";
+import Navbar from "@/components/Navbar/Navbar.js";
+import Hero from "@/components/Hero/Hero.js";
 import { About } from "@/components/About/About";
 import { Skills } from "@/components/Skills/Skills";
 import Education from "@/components/Education/Education";
