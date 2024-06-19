@@ -45,8 +45,8 @@ const Contact = () => {
         </div>
         <div className="contact-section">
             <div className="contact-left">
-                <h1>Let's Talk</h1>
-                <p>Think we’d make a great team? I’m always open to discussing potential collaborations and how we can create something incredible together. Reach out and let’s make it happen!</p>
+                <h1>Let&apos;s Talk</h1>
+                <p>Think we&apos;d make a great team? I&apos;m always open to discussing potential collaborations and how we can create something incredible together. Reach out and let&apos;s make it happen!</p>
                 <div className="contact-details">
                     <div className="contact-detail">
                     <FaEnvelope/><p>poojagusain101@gmail.com</p>

@@ -15,7 +15,7 @@ const Education = () => {
                     </div>
                     <div className="timeline-content">
                         <h3><b>Class 10th</b></h3>
-                        <p><b>St. Mary's School, Chandigarh</b><br></br>(2018-2019)<br></br>97.8%
+                        <p><b>St. Mary&apos;s School, Chandigarh</b><br></br>(2018-2019)<br></br>97.8%
                         </p>
                     </div>
                 </div>
@@ -58,7 +58,7 @@ const Education = () => {
                         <h3><b>Internship</b></h3>
                         <p><b>(CSIR-CSIO)</b><br></br>Was assigned a Machine Learning project named AI-Vehicle Assistant which is a solution that makes use of machine learning algorithms to boost driving
                             enjoyment and vehicle efficiency.<br></br>
-                            Analyzed car's OBD data and implemented various machine learning algorithms, compared
+                            Analyzed car&apos;s OBD data and implemented various machine learning algorithms, compared
                             their accuracy and prediction time to find the best model suitable for building the assistant.
                         </p>
 

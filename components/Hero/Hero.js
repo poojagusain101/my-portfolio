@@ -1,5 +1,5 @@
 import React from "react";
-
+import Image from "next/image";
 import styles from "./Hero.module.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
@@ -9,9 +9,9 @@ export default function Hero(){
   return (
     <section className={styles.container}>
       <div className={styles.content}>
-        <h1 className={styles.title}>Hi, I'm Pooja Gusain</h1>
+        <h1 className={styles.title}>Hi, I&apos;m Pooja Gusain</h1>
         <p className={styles.description}>
-        I'm a final year student at PEC Chandigarh with a deep passion for coding and technology. My dedication to this field has been marked by a constant desire to learn and innovate. I love tackling new challenges, developing creative solutions, and exploring the latest programming languages. I'm always eager to grow and push my limits.
+        I&apos;m a final year student at PEC Chandigarh with a deep passion for coding and technology. My dedication to this field has been marked by a constant desire to learn and innovate. I love tackling new challenges, developing creative solutions, and exploring the latest programming languages. I&apos;m always eager to grow and push my limits.
         </p>
        <ul className={styles.contactList}>
         
